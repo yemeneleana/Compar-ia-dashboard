@@ -105,6 +105,22 @@ Score = 0.4 * Quality_norm + 0.2 * Latency_norm + 0.2 * CO2_norm + 0.2 * Energy_
 
 The project includes an **interactive Streamlit application** to explore and compare the performance of language models (LLMs) across multiple dimensions: quality, energy consumption, CO₂ emissions, and latency.
 
+# Data Upload
+
+The dashboard have somme data by default.
+
+Inside the app, you will see a file uploader in the sidebar (Import Data).
+
+You can either:
+
+- Upload **Green AI V2.xlsx** (provided in this repo which contains the benchmark dataset used in this project)
+
+- Upload your own file, as long as it contains the same columns:
+   Models | Size | Question | Quality | Latency | CO2 | Energy | Questions class
+
+
+If the uploaded file does not match this structure, the app will raise an error.
+
 ### Key Features
 
 - **Overview**
