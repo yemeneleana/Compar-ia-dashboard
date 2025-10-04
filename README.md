@@ -116,7 +116,7 @@ You can either:
 - Upload **Green AI V2.xlsx** (provided in this repo which contains the benchmark dataset used in this project)
 
 - Upload your own file, as long as it contains the same columns:
-   Models | Size | Question | Quality | Latency | CO2 | Energy | Questions class
+  Models | Size | Question | Quality | Latency | CO2 | Energy | Questions class
 
 
 If the uploaded file does not match this structure, the app will raise an error.
