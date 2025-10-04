@@ -105,7 +105,7 @@ Score = 0.4 * Quality_norm + 0.2 * Latency_norm + 0.2 * CO2_norm + 0.2 * Energy_
 
 The project includes an **interactive Streamlit application** to explore and compare the performance of language models (LLMs) across multiple dimensions: quality, energy consumption, CO₂ emissions, and latency.
 
-# Data Upload
+### Data Upload
 
 The dashboard have somme data by default.
 
